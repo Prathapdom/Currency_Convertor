@@ -52,7 +52,7 @@ class StartPage(tk.Frame):
             to_currency = selected_currency_t.get()
             amount = user_amount.get()
 
-            access_key = 'b1c391f54a858983570f8100'
+            access_key = CUR_CUN_API_KEY
             d_list = {
             "United States Dollar": "USD", "Emirates Dirham" : "AED", "Argentine Peso" : "ARS", "Australian Dollar" : "AUD", "Bulgarian Lev" : "BGN", "Indian rupee" : "INR", "Japanese Yen" : "JPY", "Kazakhstani Tenge" : "KZT", "Malaysian Ringgit" : "MYR" , "New Zealand Dollar": "NZD"
             }
